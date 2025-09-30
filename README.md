@@ -80,7 +80,7 @@ Zvednutí ceny u potraviny, které spotřebitelé kupují nejvíce má určitě 
 K alespoň částečnému zodpovězení dotazu, ovšem rozhodně ne ideálnímu, můžeme zvolit často nakupovanou složku potravin, např. chléb, který nám může zastupovat všechny potraviny. Pokud bychom porovnávali meziroční nárůst cen chleba a růst mezd, zde dostaneme 3 roky, kde máme výrazné navýšení ceny chleba oproti růstu mzdy: 2011, 2008, 2007. Může však jít o změnu platnou pouze u chleba a nelze z ní poskytnout velkou vypovídající hodnotu.
 
 ### **Tabulka č.2**
-Poslední dotaz vyžaduje pracovat s daty HDP. Z tohto důvodu využíváme data o HDP pro Českou republiku z původní tabulky economies a přidávají se k tabulce č.1. Vzniklá tabulka nese název _t_sarka_celoudova_project_SQL_secondary_final_.
+Jako dodatečný materiál se požaduje vytvoření tabulky s HDP, GINI koeficientem a populací pro evropské státy, které budou ve stejném období jako data primární tabulky pro Českou republiku. Využívá se tabulka _countries_, která umožňuje filtrování zemí podle evropského kontinentu a spojuje se s tabulkou _economies_, která obsahuje informace o HDP, GINI koeficientu a populaci. Časové období je shodné s primární tabulkou, tedy data za celý kalendářní rok 2006 - 2018. Vzniklá tabulka nese název _t_sarka_celoudova_project_SQL_secondary_final_.
 
 ## 5. Má výška HDP vliv na změny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výrazněji v jednom roce, projeví se to na cenách potravin či mzdách ve stejném nebo následujícím roce výraznějším růstem?
 Z dostupných dat se zdá, že _výrazné zvýšení HDP (změna vetší než 5%) se projeví na změnách cen potravin okamžitě, výše mezd se projevuje především v roce následujícím_.
@@ -92,14 +92,14 @@ Následující tabulka ukazuje meziroční změny v HDP a změny v cenách potra
 |2008|2.7|6.2|-6.4|7.9|3.2|
 |2009|***-4.7***|***-6.4***|***1.9***|***3.2***|***2.0***|
 |2010|2.4|1.9|3.3|2.0|2.3|
-|2011|1.8|3.4|6.7|2.3|3.0|
+|2011|1.8|3.3|6.7|2.3|3.0|
 |2012|-0.8|6.7|5.1|3.0|-1.6|
 |2013|0.0|5.1|0.7|-1.6|2.6|
-|2014|2.3|0.7|-2.9|2.6|2.5|
-|2015|***5.4***|***-2.9***|***-1.4***|***2.5***|***3.6***|
+|2014|2.3|0.7|-0.6|2.6|2.5|
+|2015|***5.4***|***-0.6***|***-1.2***|***2.5***|***3.6***|
 |2016|2.5|-1.2|9.6|3.6|6.3|
 |2017|***5.2***|***9.6***|***2.2***|***6.3***|***7.6***|
 
-Jako zdrojová data pro tuto otázku je použita tabulka č.2. Mzdy zde vstupují v agregátní hodnotě jako průměrná mzda v daném roce, bez ohledu na rozčlenění mezi odvětví. Stejně je braná i hodnota cen, použita je průměrná hodnota cen všech potravin, data nejsou rozdělena na jednotlivé kategorie potravin. Jako ukazatel změny je využita meziroční procentuální změna. 
+Jako zdrojová data pro tuto otázku je použita tabulka č.2 spojena s tabulkou č.1. Mzdy zde vstupují v agregátní hodnotě jako průměrná mzda v daném roce, bez ohledu na rozčlenění mezi odvětví. Stejně je braná i hodnota cen, použita je průměrná hodnota cen všech potravin, data nejsou rozdělena na jednotlivé kategorie potravin. Jako ukazatel změny je využita meziroční procentuální změna. 
 
-Porovnáváme údaje z poměrně krátkého časového období, pro lépe vypovídající analýzu by bylo vhodné porovnat přidat data z delšího období, které bohužel nemáme. Dále by mohla pomoci s analýzou také korelace nebo regrese, které by mohly ještě lépe ukázat vzájemnou závislost HDP a růst cen potravin a mezd. Trochu zavádějícím obdobím je také rok 2015, kde ačkoliv dojde k výraznému růstu HDP (+5%), ceny potravin se meziročně snižují (-3%). To by mohlo vyvracovat hypotézu, že výrazné zvýšení HDP má okamžitý vliv na zvýšení cen potravin, ale také může být projevem jiných makroekonomických vlivů ovlivňující ceny potravin v daném roce. Domnívám se, že by pokles cen potravin v roce 2015 mohl být vysvětlen výrazným propadem cen ropy a pohonných hmot (https://statistikaamy.csu.gov.cz/ekonomika-cr-v-roce-2015).
+Porovnáváme údaje z poměrně krátkého časového období, pro lépe vypovídající analýzu by bylo vhodné porovnat přidat data z delšího období, které bohužel nemáme. Dále by mohla pomoci s analýzou také korelace nebo regrese, které by mohly ještě lépe ukázat vzájemnou závislost HDP a růst cen potravin a mezd. Trochu zavádějícím obdobím je také rok 2015, kde ačkoliv dojde k výraznému růstu HDP (+5%), ceny potravin se meziročně snižují (-0.6%). To by mohlo vyvracet hypotézu, že výrazné zvýšení HDP má okamžitý vliv na zvýšení cen potravin, ale také může být projevem jiných makroekonomických vlivů ovlivňující ceny potravin v daném roce. Domnívám se, že by pokles cen potravin v roce 2015 mohl být vysvětlen výrazným propadem cen ropy a pohonných hmot (https://statistikaamy.csu.gov.cz/ekonomika-cr-v-roce-2015).
