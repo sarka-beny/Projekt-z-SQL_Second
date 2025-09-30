@@ -43,6 +43,8 @@ SELECT
 FROM lagged_data
 WHERE YEAR BETWEEN '2007' AND '2017'
 GROUP BY YEAR, gdp, lag_gdp,avg_pay_curr,lag_avg_pay, lead_avg_pay,avg_price_curr, lag_avg_price,lead_avg_price
+;
+
 
 
 
