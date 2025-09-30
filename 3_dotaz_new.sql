@@ -19,7 +19,7 @@ SELECT DISTINCT
 	GROUP BY category, year
 	ORDER BY price_increase_percentage, YEAR, category ;
 
---průměrný procentuální nárůstu
+--průměrný procentuální nárůst
 WITH price_compare AS (
     SELECT 
         category,
@@ -37,5 +37,6 @@ SELECT DISTINCT
 	FROM price_compare
 	GROUP BY category, category_code
 	ORDER BY avg_price_increase, category_code ;
+
 
 
