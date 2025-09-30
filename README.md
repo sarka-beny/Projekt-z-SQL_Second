@@ -63,18 +63,18 @@ Historicky nejnižší hodnotu procentuálního meziročního nárůstu v jednom
 Je možné strojově porovnat meziroční nárůst pro všechny kategorie potravin, které máme k dispozici a meziroční růst mezd. Zde _není případ, že by byl meziroční nárůst cen potravin výrazně vyšší než růst mezd_. Nejblíže je rok 2009, kdy byl rozdíl mezi meziročním nárůstem cen potravin a růst mezd 9,57%. Následující tabulka ukazuje meziroční růst a jejich rozdíl.
 |rok|růst mezd|růst cen potravin|rozdíl(ceny potraviny-mzdy)|
 |----|-----------------------|-------------------------|----------|
-|2007|6.84|6.76|-0.07|
+|2007|6.84|6.76|-0.08|
 |2008|7.87|6.18|-1.69|
 |2009|3.16|-6.41|-9.57|
 |2010|1.95|1.94|-0.01|
 |2011|2.30|3.35|1.05|
 |2012|3.03|6.73|3.70|
-|2013|-1.56|5.10|6.65|
+|2013|-1.56|5.10|6.66|
 |2014|2.56|0.74|-1.82|
 |2015|2.51|-2.91|-5.42|
 |2016|3.65|-1.19|-4.84|
 |2017|6.28|9.63|3.35|
-|2018|7.62|2.17|-5.46|
+|2018|7.62|2.17|-5.45|
 
 Zvednutí ceny u potraviny, které spotřebitelé kupují nejvíce má určitě větší dopad než to samé zvýšení ceny u málo kupované potraviny (např. chléb a kapr). Z tohoto důvodu by bylo vhodné _spočítat nárůst cen u spotřebního koše spotřebitele (vážený průměr), neboli zvýšení/snížení cenové hladiny a tu porovnat s růstem mezd_. K takovému porovnání nám ovšem chybí data.\
 K alespoň částečnému zodpovězení dotazu, ovšem rozhodně ne ideálnímu, můžeme zvolit často nakupovanou složku potravin, např. chléb, který nám může zastupovat všechny potraviny. Pokud bychom porovnávali meziroční nárůst cen chleba a růst mezd, zde dostaneme 3 roky, kde máme výrazné navýšení ceny chleba oproti růstu mzdy: 2011, 2008, 2007. Může však jít o změnu platnou pouze u chleba a nelze z ní poskytnout velkou vypovídající hodnotu.
